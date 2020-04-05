@@ -1,0 +1,23 @@
+{
+  "name": "protractor-course",
+  "version": "1.0.0",
+  "description": "Simple protractor course for QA",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run update && protractor conf.js",
+    "update": "webdriver-manager update"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lucianomurr/protractor.git"
+  },
+  "author": "Luciano Murruni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucianomurr/protractor/issues"
+  },
+  "homepage": "https://github.com/lucianomurr/protractor#readme",
+  "dependencies": {
+    "protractor": "^5.4.3"
+  }
+}
