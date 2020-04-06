@@ -4,8 +4,9 @@
   "description": "Simple protractor course for QA",
   "main": "index.js",
   "scripts": {
-    "test": "npm run update && protractor conf.js",
-    "update": "webdriver-manager update"
+    "e2e": "npm run update && protractor conf.js --suite all",
+    "update": "webdriver-manager update",
+    "protractor": "protractor"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,10 @@
   },
   "homepage": "https://github.com/lucianomurr/protractor#readme",
   "dependencies": {
-    "protractor": "^5.4.3"
+    "jasmine-allure-reporter": "^1.0.2",
+    "jasmine-reporters": "^2.3.2",
+    "jasmine-spec-reporter": "^5.0.1",
+    "protractor": "^5.4.3",
+    "protractor-html-reporter-2": "^1.0.4"
   }
 }
